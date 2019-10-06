@@ -7,13 +7,16 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<androidx.appcompat.widget.AppCompatButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/flat_button"
-    android:layout_gravity="center"
-    android:layout_marginTop="30dp"
-    style="@style/BarrsoftButtonColor"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Button"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        style="@style/BarrsoftButtonColor">
+
+    </androidx.appcompat.widget.AppCompatButton>
 
 
 

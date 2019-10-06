@@ -8,8 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="BarrsoftButtonColor" parent="TextAppearance.AppCompat.Widget.Button.Colored">
-        <item name="android:backgroundTint"> </item>
+    <style name="BarrsoftButtonColor" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/holo_orange_light</item>
     </style>
 
 </resources>
