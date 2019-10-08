@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_Button"
+        android:text="@string/btn_button"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         style="@style/BarrsoftButtonColor">
@@ -19,6 +19,15 @@
     </androidx.appcompat.widget.AppCompatButton>
 
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_flat_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        style="@style/BarrsoftFlatButton">
+
+    </androidx.appcompat.widget.AppCompatButton>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -8,9 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="BarrsoftButtonColor" parent="Widget.AppCompat.Button.Borderless.Colored">
+    <style name="BarrsoftButtonColor" parent="Widget.AppCompat.Button.Colored">
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:textColor">@android:color/holo_orange_light</item>
     </style>
+
+
+    <style name="BarrsoftFlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@android:color/holo_orange_light</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+
+    </style>
+
 
 </resources>
